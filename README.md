@@ -2,6 +2,8 @@ React Task Manager App
 
 A fully functional React + Vite project built with Tailwind CSS, featuring component architecture, state management with hooks, API integration, theme switching, and responsive design.
 
+Live site : https://taskmanager1-three.vercel.app/
+
 Features
 Component Architecture
 
