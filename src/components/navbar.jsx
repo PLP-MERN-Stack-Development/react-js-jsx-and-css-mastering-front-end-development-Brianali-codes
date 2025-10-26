@@ -1,6 +1,5 @@
 
 export default function Navbar() {
-  const { theme, toggleTheme } = useContext(ThemeContext);
 
   return (
     <nav className="flex justify-between items-center p-4 bg-cyan-900 text-white dark:bg-gray-700">
@@ -10,4 +9,5 @@ export default function Navbar() {
     </nav>
   );
 }
+
 
