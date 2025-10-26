@@ -1,67 +1,16 @@
-React Task Manager App
+# React + Vite
 
-This is a fully functional React + Vite project built with Tailwind CSS, featuring component architecture, state management with hooks, API integration, theme switching, and responsive design.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Features
-Component Architecture
+Currently, two official plugins are available:
 
-Reusable Button component with variants (primary, secondary, danger)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Card component for boxed content layout
+## React Compiler
 
-Navbar with theme toggle (light/dark mode)
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Footer with links and copyright info
+## Expanding the ESLint configuration
 
-Layout component that wraps Navbar and Footer for consistent page structure
-
-State Management and Hooks
-
-Uses useState and useEffect for state and side effects
-
-Uses useContext for light/dark theme management
-
-Custom hook useLocalStorage for persistent task data
-
-Task Manager
-
-Add new tasks
-
-Mark tasks as completed or undo
-
-Delete tasks
-
-Filter tasks by All, Active, or Completed
-
-API Integration
-
-Fetches posts from JSONPlaceholder
-
-Displays results in a responsive grid layout
-
-Includes loading and error states
-
-Search feature to filter fetched data
-
-Styling with Tailwind CSS
-
-Fully responsive design for mobile, tablet, and desktop
-
-Dark mode using Tailwind’s dark: classes
-
-Smooth hover and transition effects
-
-Setup Instructions
-1. Clone the Repository
-git clone <your-repo-url>
-cd <repo-folder>
-
-2. Install Dependencies
-npm install
-
-3. Run the Development Server
-npm run dev
-
-
-The app will be available at:
-http://localhost:5173
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
