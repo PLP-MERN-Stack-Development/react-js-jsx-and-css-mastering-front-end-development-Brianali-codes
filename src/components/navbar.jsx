@@ -1,7 +1,4 @@
 
-import { useContext } from "react";
-import { ThemeContext } from "../context/ThemeContext";
-
 export default function Navbar() {
   const { theme, toggleTheme } = useContext(ThemeContext);
 
@@ -13,3 +10,4 @@ export default function Navbar() {
     </nav>
   );
 }
+
